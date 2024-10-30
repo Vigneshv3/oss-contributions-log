@@ -368,3 +368,5 @@ def test_open_resource_with_encoding(tmp_path, encoding):
 
     with app.open_resource("test", mode="rt", encoding=encoding) as f:
         assert f.read() == "test"
+#   P l a c e h o l d e r   t e s t   f o r   s t r e a m _ w i t h _ c o n t e x t   o n   s y n c   r o u t e  
+ 
